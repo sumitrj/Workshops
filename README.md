@@ -1,4 +1,3 @@
-# AlphaWorkshops
+# Workshops
 
-### Alpha is a series of workshops conducted by IET - VIT - Vellore.
-### This repository has some of the materials used in various alpha workshops Spoken/Co-hosted by me.
+## Files/Reference for various wHacks and alpha series workshops hosted as Microsoft Student Partner, Technical Head of IET-VIT and MLH LocalHost Organizer
