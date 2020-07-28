@@ -1,3 +1,18 @@
 # Workshops
 
-## Files/Reference for various wHacks and alpha series workshops hosted as Microsoft Student Partner, Technical Head of IET-VIT and MLH LocalHost Organizer
+This repository is an archived tutorial version of some of the workshops hosted by me as a Microsoft Student Partner, Technical Head of IET-VIT and MLH LocalHost Organizer
+
+As apparent from the folder names, you can find informaive tutorials for starting with
+
+1. Machine Learning
+2. Deep Learning
+3. Reinforcement Learnning
+4. Image Processing 
+5. Digital Signal Processing with Machine Learning
+6. Embedded Systems and Robotics
+7. Internet of Things
+8. Version Control and GitHub basics
+9. Azure Cognitive API's demo
+10. Building FAQ bots with Azure
+
+Happy Learning!
