@@ -99,8 +99,8 @@ Activation functions are simply mathematical functions that are used to determin
 
 The Sigmoid function is a type of logistic function which outputs a value between 0 and 1, suitable for a Logical gate like the XOR function. The ReLU (Rectified Linear Unit) function, meanwhile, is a common function used in hidden layers, as it can be used to work around the famous “Vanishing Gradient” problem. It outputs the same value of its input if it is greater than 0 and outputs 0 in all other cases.
 
-[Sigmoid Activation Function plot](./images/sigmoid.png)
-[ReLU Activation Function plot](./images/relu.png)
+![Sigmoid Activation Function plot](./images/sigmoid.png)
+![ReLU Activation Function plot](./images/relu.png)
 
 ## Define the model class:
 
