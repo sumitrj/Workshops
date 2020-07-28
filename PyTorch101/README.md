@@ -3,8 +3,6 @@
 
 This repository describes in brief the concepts of neural networks and demonstrates the pytorch code for XOR gate.
 
-Happy Learning!
-
 ## Let's get started!
 
 Whether you’ve noticed it or not, Deep Learning (DL) plays an important part in all our lives. From the voice assistants and auto-correct services on your smartphone to the automation of large industries, deep learning is the underlying concept behind these meteoric rises in human progress. A major concept that we implement in deep learning is that of neural networks.
