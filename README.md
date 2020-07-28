@@ -1,6 +1,6 @@
 # Workshops
 
-This repository is an archived tutorial version of some of the workshops hosted by me as a Microsoft Student Partner, Technical Head of IET-VIT and MLH LocalHost Organizer
+This repository is an archived tutorial versions of some of the workshops hosted by me as a Microsoft Student Partner, Technical Head of IET-VIT and MLH LocalHost Organizer
 
 As apparent from the folder names, you can find informaive tutorials for starting with
 
