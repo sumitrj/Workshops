@@ -63,7 +63,7 @@ Input:
 
 Field Parameters
 
-Coordinates of Target Points:
+	Coordinates of Target Points:
 	P1 [0] ['x'] 
 	P1 [0] ['y']
 	P1 [1] ['x'] 
@@ -73,6 +73,7 @@ Coordinates of Target Points:
 	...
 	P1 [N-1] ['x'] 
 	P1 [N-1] ['y'] 
+	
 	P1 = [ P1.0, P1.2, P2.2, .... P2.N ]
 
 L = Length of the total Area 
@@ -132,15 +133,15 @@ NextState(Visited):
 		return next_state
 Generic functions:
 
-1. Union(A,B): 
-returns the union of sets A and B
+	1. Union(A,B): 
+	returns the union of sets A and B
 
-2. isSubSet(A,B) :
-returns 1 if r is subset of B, returns 0 otherwise
+	2. isSubSet(A,B) :
+	returns 1 if r is subset of B, returns 0 otherwise
 
-3. isSuperSet(A,B):
-returns 1 if A is superset of B, returns 0 otherwise
-An episode of training can be described as follows:
+	3. isSuperSet(A,B):
+	returns 1 if A is superset of B, returns 0 otherwise
+	An episode of training can be described as follows:
 
 
 **G** or Gamma is a very important parameter. 
@@ -191,19 +192,18 @@ Coordinates of Target Points:
 	P1 = [ P1.0, P1.2, P2.2, .... P2.N ]
 
 Location of Bots:
-An M sized sequence from P1
+	Starting location of bot L
+	L = Length of the total Area 
+	B = Breadth of the total Area
+	Algorithm Hyperparameters
 
-L = Length of the total Area 
-B = Breadth of the total Area
-Algorithm Hyperparameters
-
-G = Gamma = Learning Rate
-E = Number of Episodes
+	G = Gamma = Learning Rate
+	E = Number of Episodes
 
 Training:
 
-for e in range(E):
-	TrainEpisode()
+	for e in range(E):
+		TrainEpisode()
 Testing
 
 	Initial_State = < As given in the input >
@@ -221,11 +221,11 @@ Testing
 	scores.append(EpisodePenalty) 
 	policies.append(policy)
 
-NextStateByQ(Initial_State,Visited):
-	Next_State = Initial_State + 1
-	for i in Visited:
-		if(Q[Initial_State][Next_State]>Q[Initial_State][i]):
-			Next_State = i
-	return Next_State
+	NextStateByQ(Initial_State,Visited):
+		Next_State = Initial_State + 1
+		for i in Visited:
+			if(Q[Initial_State][Next_State]>Q[Initial_State][i]):
+				Next_State = i
+		return Next_State
 
 
