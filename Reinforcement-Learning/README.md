@@ -64,16 +64,16 @@ Input:
 Field Parameters
 
 Coordinates of Target Points:
-P1 [0] ['x'] 
-P1 [0] ['y']
-P1 [1] ['x'] 
-P1 [1] ['y']
-P1 [2] ['x'] 
-P1 [2] ['y']
-...
-P1 [N-1] ['x'] 
-P1 [N-1] ['y'] 
-P1 = [ P1.0, P1.2, P2.2, .... P2.N ]
+	P1 [0] ['x'] 
+	P1 [0] ['y']
+	P1 [1] ['x'] 
+	P1 [1] ['y']
+	P1 [2] ['x'] 
+	P1 [2] ['y']
+	...
+	P1 [N-1] ['x'] 
+	P1 [N-1] ['y'] 
+	P1 = [ P1.0, P1.2, P2.2, .... P2.N ]
 
 L = Length of the total Area 
 B = Breadth of the total Area
@@ -179,16 +179,16 @@ Input:
 Field Parameters
 
 Coordinates of Target Points:
-P1 [0] ['x'] 
-P1 [0] ['y']
-P1 [1] ['x'] 
-P1 [1] ['y']
-P1 [2] ['x'] 
-P1 [2] ['y']
-...
-P1 [N-1] ['x'] 
-P1 [N-1] ['y'] 
-P1 = [ P1.0, P1.2, P2.2, .... P2.N ]
+	P1 [0] ['x'] 
+	P1 [0] ['y']
+	P1 [1] ['x'] 
+	P1 [1] ['y']
+	P1 [2] ['x'] 
+	P1 [2] ['y']
+	...
+	P1 [N-1] ['x'] 
+	P1 [N-1] ['y'] 
+	P1 = [ P1.0, P1.2, P2.2, .... P2.N ]
 
 Location of Bots:
 An M sized sequence from P1
@@ -206,12 +206,12 @@ for e in range(E):
 	TrainEpisode()
 Testing
 
-Initial_State = < As given in the input >
-current_state = Initial_State 
-Visited = {} # Set of Visited Points 
-Visited = Union( Visited, set( current_state ) ) 
-policy = [] # Sequence of States forming the policy for the considered episode
-EpisodePenalty = 0 
+	Initial_State = < As given in the input >
+	current_state = Initial_State 
+	Visited = {} # Set of Visited Points 
+	Visited = Union( Visited, set( current_state ) ) 
+	policy = [] # Sequence of States forming the policy for the considered episode
+	EpisodePenalty = 0 
 	
 	while( isSuperSet ( AllPoints, Visited ) ): 
 		next_state = NextStatebyQ(current_state) 
