@@ -1,5 +1,9 @@
 # ML101
 
+If you like colorful presentations, [click here](https://drive.google.com/file/d/17vU2DWPQAxARGkepxVOtBG5kLJ4oFP8m/view?usp=sharing)
+
+Happy Learning!
+
 *Practice Makes a person perfect*
 
 This is a very common phrase that our parents have been telling us for a loooong time. It applies to computers too.
