@@ -89,5 +89,7 @@ Or a specific value from an object
     db.child("agents").child("Lana").remove(user['idToken'])
 
 
-### That's it! Congratulations, I hope you got it done, If not, you know [where](https://medium.com/@scosta/why-firebase-sucks-ce5d2302eb20) to go
+### That's it! 
+Congratulations, I hope you got it done. 
+If not, you know [where](https://medium.com/@scosta/why-firebase-sucks-ce5d2302eb20) to go
 ### Happy Hacking!
