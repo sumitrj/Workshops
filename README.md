@@ -1,6 +1,6 @@
 # Workshops
 
-I've recently started to make tutorial article versions of various workshops I've given as a Microsoft Student Partner, Technical Head of IET-VIT and MLH LocalHost Organizer.  
+I've recently started to make tutorial versions of various workshops I've given as a Microsoft Student Partner, Technical Head of IET-VIT and MLH LocalHost Speaker/Organizer.  
 I intend to post tutorial versions of the list of workshops given below. As of now you can find the first 5. You can explore [my GitHub repositories](https://github.com/sumitrj?tab=repositories) for more projects to learn from.
 
 Happy Learning!
