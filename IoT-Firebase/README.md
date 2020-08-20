@@ -77,7 +77,7 @@ update() method.
     db.child("agents").child("Lana").update({"name": "Lana Anthony Kane"}, user['idToken'])
 
 ### Delete 
-##### just what google should do for majority of it's services (No Offence, everyone is entitle to their faith and cloud services)
+##### just what google should do for majority of it's services (No Offence, everyone is entitled to their faith and cloud services)
 
 The remove() method removes objects from the database. 
     
