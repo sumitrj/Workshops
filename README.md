@@ -7,11 +7,11 @@ Happy Learning!
 
 List of workshops:
 
-1. Machine Learning (ML101)
-2. Deep Learning (PyTorch101)
-3. Reinforcement Learnning
-4. Introduction to GitHub
-5. Internet of Things using Firebase
+1. [Machine Learning (ML101)](https://github.com/sumitrj/Workshops/tree/master/ML101)
+2. [Deep Learning (PyTorch101)](https://github.com/sumitrj/Workshops/tree/master/PyTorch101)
+3. [Reinforcement Learnning](https://github.com/sumitrj/Workshops/tree/master/Reinforcement-Learning)
+4. [Introduction to GitHub](https://github.com/sumitrj/Workshops/tree/master/How%20to:%20GitHub)
+5. [Internet of Things using Firebase](https://github.com/sumitrj/Workshops/tree/master/IoT-Firebase)
 6. Embedded Systems and Robotics 
 7. Digital Signal Processing with Machine Learning (DSP)
 8. Image Processing
