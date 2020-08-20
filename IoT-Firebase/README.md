@@ -43,10 +43,11 @@ The default permissions of a Firebase database requires authentication to perfor
 
 ## CRUD-dy Behavior
 
-Given a table what all actions van be done? Create, read, update and delete. Let's explore how we can do that
+In how many ways can you mess up a table? Create (yup, that's where things went south), read, update and delete (finally, something right). 
+
+Let's explore how we can do that
 
 ### Create
-
 
 #### Push method: 
 
