@@ -7,7 +7,7 @@ That's all we are going to cover, because you've got many other things to do to 
 
 ## Create an Account
 
-Creating a Firebase account is simple. You can register using an existing Google account at https://firebase.google.com/
+Creating a Firebase account is simple. You can register using an existing Google account [here](https://firebase.google.com/)
 
 Before we can connect to our Firebase database with Python, we need to download a couple of helper modules. We are going to use pip to install them.
 
