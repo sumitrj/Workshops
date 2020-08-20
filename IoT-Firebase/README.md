@@ -3,7 +3,7 @@
 Being a Microsoft student partner, I am not particularly proud of this workshop but I think it is a good tool for rapid prototyping, something you can use for hackathons. I'll post an Azure version of this soon. Till then, please bear with the GCP version in this tutorial.
 
 I assume you are already familiar with python and are looking for a function or an [API](https://www.infoworld.com/article/3269878/what-is-an-api-application-programming-interfaces-explained.html) which can let you send data to a secured server and receive it from another edge device.
-That's all we are going to cover, because you've got many other things to do to win that hackathoms.
+That's all we are going to cover, because you've got many other things to do to win that hack.
 
 ## Create an Account
 
