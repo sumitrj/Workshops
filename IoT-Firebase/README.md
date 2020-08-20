@@ -20,7 +20,7 @@ In layman’s terms, it allows you to use Python to manipulate your Firebase dat
 
 ## Connecting to Database:
 
-Yes, I won't let you type much code, welcome to opensource. Just paste this to connect this to the database/
+Yes, I won't let you type much code, welcome to opensource. Just paste this in your python script to connect this to the database
 
 
     import pyrebase
