@@ -11,7 +11,7 @@ Creating a Firebase account is simple. You can register using an existing Google
 
 Before we can connect to our Firebase database with Python, we need to download a couple of helper modules. We are going to use pip to install them.
 
-   curl https://bootstrap.pypa.io/get-pip.py | python
+      curl https://bootstrap.pypa.io/get-pip.py | python
 
 ## Install Pyrebase
 
@@ -61,11 +61,11 @@ Given a table what all actions van be done? Create, read, update and delete. Let
 
 #### You can get all of the values of an object
   
-  all_agents = db.child("agents").get(user['idToken']).val()
+      all_agents = db.child("agents").get(user['idToken']).val()
 
 #### Or you can get a specific value of an object
 
-lana_data = db.child("agents").child("Lana").get(user['idToken']).val()
+      lana_data = db.child("agents").child("Lana").get(user['idToken']).val()
 
 ### Update
 
@@ -76,7 +76,8 @@ update() method.
 
     db.child("agents").child("Lana").update({"name": "Lana Anthony Kane"}, user['idToken'])
 
-### Delete; just like google should do for majority of it's services (No Offence, everyone is entitle to their faith and cloud services)
+### Delete 
+##### just what google should do for majority of it's services (No Offence, everyone is entitle to their faith and cloud services)
 
 The remove() method removes objects from the database. 
     
